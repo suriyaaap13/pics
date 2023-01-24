@@ -1,4 +1,8 @@
 function ImageShow({ key, imageData }){
-    return (<div>ImageShow</div>);
+    return (
+        <>
+            <img  src={imageData.urls.small}/>
+        </>
+    );
 }
 export default ImageShow;
