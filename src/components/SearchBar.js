@@ -1,4 +1,9 @@
 function SearchBar(){
-    return (<div>SearchBar</div>);
+    return (
+        <form>
+            <input placeholder="Search Images"/>
+            <button>search</button>
+        </form>
+    );
 }
 export default SearchBar;

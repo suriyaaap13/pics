@@ -1,6 +1,11 @@
+import SearchBar from './components/SearchBar';
+import ImageList from './components/ImageList';
 function App(){
     return (
-        <div>App</div>
+        <>
+            <SearchBar/>
+            <ImageList/>
+        </>
     );
 }
 export default App;
